@@ -21,8 +21,8 @@ poetry install
 
 ## demo
 
-The demo is available in `examples.ipynb`.
-You can start Jupyter Lab with the following command:
+- The demo is available in `examples.ipynb`. You can start Jupyter Lab with the following command:
+- @YoshikiMas modified the notebook and and added `tarin_fm.py` for conditional flow matching (CFM) in a hacky way. He is learning CFM from these blog posts [3, 4].
 
 ```sh
 poetry run jupyter lab
@@ -79,3 +79,5 @@ poetry run pre-commit install
 
 1. Ho, J., Jain, A., & Abbeel, P. Denoising diffusion probabilistic models. NeurIPS. 2020.
 1. Luo, C. Understanding diffusion models: A unified perspective. arXiv preprint arXiv:2208.11970. 2022.
+1. [A Visual Dive into Conditional Flow Matching](https://dl.heeere.com/conditional-flow-matching/blog/conditional-flow-matching/)
+1. [Flow With What You Know](https://drscotthawley.github.io/blog/posts/FlowModels.html)
